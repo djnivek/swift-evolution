@@ -1,6 +1,6 @@
 # Apply API Guidelines to the Standard Library
 
-* Proposal: [SE-0006](https://github.com/apple/swift-evolution/proposals/0006-apply-api-guidelines-to-the-standard-library.md)
+* Proposal: [SE-0006](https://github.com/apple/swift-evolution/blob/master/proposals/0006-apply-api-guidelines-to-the-standard-library.md)
 * Author(s): [Dave Abrahams](https://github.com/dabrahams), [Dmitri Gribenko](https://github.com/gribozavr), [Maxim Moiseev](https://github.com/moiseev)
 * Status: **Awaiting Review**
 * Review manager: [Doug Gregor](https://github.com/DougGregor)
@@ -37,7 +37,7 @@ On high level, the changes can be summarized as follows.
 
 Differences between Swift 2.2 Standard library API and the proposed API are
 added to this section as they are being implemented on the
-[swift-3-api-guidelines branch][swift-3-api-guidelines-repo].
+[swift-3-api-guidelines branch][swift-3-api-guidelines-branch].
 
 ## Impact on existing code
 

@@ -1,6 +1,6 @@
 # Removing currying `func` declaration syntax
 
-* Proposal: [SE-0002](https://github.com/apple/swift-evolution/proposals/0002-remove-currying.md)
+* Proposal: [SE-0002](https://github.com/apple/swift-evolution/blob/master/proposals/0002-remove-currying.md)
 * Author(s): [Joe Groff](https://github.com/jckarter)
 * Status: **Accepted**
 
@@ -59,7 +59,7 @@ can be transformed to explicitly return a closure instead:
 
   // After:
   func curried(x: Int) -> (String) -> Float {
-    return {(y: String -> Float) in
+    return {(y: String) -> Float in
       return Float(x) + Float(y)!
     }
   }
